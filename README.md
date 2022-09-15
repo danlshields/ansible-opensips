@@ -22,7 +22,7 @@ Role Variables
 The following variables can be set to tune the role's install behavior:
 * `opensips_version` - specifies the version of OpenSIPS that is going to be
 installed. Default is `2.4`.
-* `ansible_build` - indicates the OpenSIPS build. Possible values are
+* `opensips_build` - indicates the OpenSIPS build. Possible values are
 `releases` and `nightly`. Default value is `releases`.
 * `opensips_yum_release` - indicates a specific RedHat release of OpenSIPS that should be used.
 * `opensips_modules` - additional modules that are going to be installed
