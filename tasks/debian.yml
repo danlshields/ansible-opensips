@@ -28,6 +28,7 @@
   apt:
     name: opensips
     state: present
+    allow_downgrade: yes
   notify:
     - opensips start
     - opensips restart
